@@ -1,6 +1,25 @@
-# SearchEngine
-This is a search engine project from SWJTU
-# Language
+# 搜索引擎
+西南交通大学吴晓老师互联网搜索引擎课程课程设计
+# 语言
 Java
-# Propose
-1. Use JSoup Spider pull 500 web pages in English and 500 web pages in Chinese
+# 目的
+通过下载引擎（Web Crawler/Spider）自动下载至少500个英文文档/网页，以及500个中文文档/网页，并保留原始的文档/网页备份（如：News _1_Org.txt）
+编程对所下载文档进行自动预处理：
+
++ 将各个单词进行字符化
+
++ 完成删除特殊字符等操作调研并选择合适的中文分词技术和工具实现中文分词，可参看《Lucene分词器比较》：https://teniteve.com/blog/223396
+
++ 删除英文停用词（Stop Word）
+
++ 删除中文停用词调用或者编程实现Porter Stemming
+
++ 功能将中文文档进行字符化，即可被搜索引擎索引的字符单元
+
++ 对于英文文档，经过以上处理之后，将经过处理之后所形成简化文档保存（如：News_1_E txt），以备以后的索引处理
+
++ 对于中文文档，经过以上处理之后，将经过处理之后所形成简化文档保存（如：News_1_C.txt），以备以后的索引处理
+
+# 说明
+仅供交流参考
+抄袭必究！

@@ -1,0 +1,1 @@
+start code，如果NALU对应的Slice为一帧的开始，则用4字节表示，即0x00000001；否则用3字节表示，0x000001 forbidden_zero_bit,禁止位，0正常，1错误 nal_ref_idc，重要级别，11表示非常重要 nal_unit_type，表示该NALU的类型 RBSP ,Raw Byte Sequence Payload，原始字节序列负荷 为了使NALU主体不包括起始码，在编码时每遇到两个字节（连续）的0，就插入一字节0x03，以和起始码相区别。解码时，则将相应的0x03删除掉。   

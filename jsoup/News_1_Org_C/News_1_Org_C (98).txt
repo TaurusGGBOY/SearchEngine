@@ -1,0 +1,1 @@
+??荷兰人Guido van Rossum在1989年，创立了Python语言，1991年初发布第一个公开发行版。 ??因为他是英国喜剧BBC喜剧《Monty Python’s Flying Circus》的忠实粉丝,所以取名为python （图片摘抄于：https://www.oschina.net/news/104274/python-developers-survey-2018） 编译语言：把源代码转换成目标机器的CPU指令 解释语言：解释后转换成字节码，运行在虚拟机上，解释器执行中间代码 java、python、C#的源代码需要被解释器编译成中间代码（Bytecode），在虚拟机上运行 C、C++等语言的源代码需要本地编译 Python的语言类型(python是动态语言、强类型语言！！！！！！)

@@ -1,0 +1,1 @@
+RHEL6.5 nfs服务器server：192.168.169.133 web服务器client1：192.168.169.131；client2：192.168.169.134 nfs服务搭建见:https://blog.csdn.net/Ying_smile/article/details/80601519 测试验证：在浏览器测试，两台服务器都可以查看到共享文件的内容

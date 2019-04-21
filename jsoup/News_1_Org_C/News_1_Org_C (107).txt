@@ -1,0 +1,1 @@
+webrtc jitterbuffer rtp包几个时间值： 接收时间 ，发送时间，网络传输时间，网络延迟时间（网络排队） rtp包的接收时间 = sendtime + transferTime rtp包的接收时间 = sendtime + transferTime + netdelayTime 抖动缓冲区目的就是为了消除网络延迟对音视频的平滑播放造成的影响，如果没有抖动缓冲区，就可能 播放的视频时快时慢，播放的音频断断续续。 计算抖动的第一步就是计算网络的延迟，第二部根据延迟设置合适的抖动缓冲区大小。 一.webrtc视频抖动缓冲计算伪代码 二.webrtc音频抖动缓冲计算 伪代码 音频主要逻辑在NetEqImpl中

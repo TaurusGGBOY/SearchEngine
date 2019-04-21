@@ -1,0 +1,1 @@
+v-if 和 v-show 切换元素的隐藏和显示 条件渲染指令 v-if v-else-if v-else v-once : 只解析一次,以后不管数据怎么变化,都不会再变 v-pre : 不解析(是什么样还是什么样) 遮盖 v-cloak 计算属性 : (computed, 跟data 平级) 计算属性也是一种属性, 只跟相关的数据变化而变化

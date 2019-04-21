@@ -1,0 +1,1 @@
+注意要选择上边的“Launch the MySQL Instance Configuration Wizard”选项，这是启动MySQL的配置，单击“Finish”按钮，进入到配置界面。    ##14、在打开的字符编码的页面中，设置mysql要使用的字符编码，第一个是西文编码，第二个是多字节的通用utf8编码，第三个是手动，我们选择utf-8或者是gbk,单击“next”，继续配置，如图所示：   

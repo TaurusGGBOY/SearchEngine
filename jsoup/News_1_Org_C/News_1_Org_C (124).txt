@@ -1,0 +1,1 @@
+1、打开CMD窗口(不要登录)，通过命令备份mydb1数据库 备份命令: mysqldump -u用户名 -p 数据库名字 > 数据文件的位置 例如: mysqldump -uroot -p mydb1 > d:/mydb1.sql 2、登录到MySQL客户端，删除mydb1库 – 删除mydb1库 drop database mydb1; – 查询所有库, 是否还存在mydb1库 show databases; 3、在CMD窗口中(不要登录)，通过命令恢复mydb1数据库 – 在CMD窗口中(不要登录) 恢复命令: mysql -u用户名 -p 数据库名字 < 数据文件的位置 例如: mysql -uroot -p mydb1 < d:/mydb1.sql

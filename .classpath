@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="lib/lucene-core-8.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/lucene-demo-8.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/lucene-queryparser-8.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/kmeans.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
